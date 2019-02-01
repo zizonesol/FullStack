@@ -1,0 +1,159 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    text-align: center;
+    color: rgb(56, 49, 78);
+}
+
+nav li
+{
+    display: inline-block;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    padding: 15px;
+    color: #fff;
+}
+
+nav a:hover
+{
+	color: #c7bbf3;
+	font-weight: bold;
+}
+
+header
+{
+    text-align: center;
+    background: url(../img/background_img.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 980px;
+}
+
+header h1
+{
+    padding-top: 420px;
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+    font-size: 65px;
+}
+
+.blurb
+{
+    background-color: rgb(56, 49, 78);
+    height: 100px;
+    padding-top: 100px;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+.about-me
+{
+    margin-left: 150px;
+    margin-top: 160px;
+    padding: 50px;
+    height: 630px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#about
+{
+    margin-top: 150px;
+    padding-top: 50px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#profile-image
+{
+    float:left;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+#profile-blurb
+{
+    float: right;
+    width: 500px;
+    padding-right: 150px;
+}
+
+.project-section
+{
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 50px;
+    margin-top:40px;
+    margin-bottom: 130px;
+}
+
+.contact-section
+{
+    font-family: 'Barlow', sans-serif;
+    height: 730px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+form
+{
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+.form-row
+{
+    margin: 10px;
+}
+
+#submit-button
+{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #cecece;
+
+}
+
+.sidebar
+{
+	float:right;
+	width:25%;
+	margin-top: 10px
+}
+
+.sidebar li
+{
+	font-size: 15px;
+	line-height:130%;
+}
+
+.sidebar a
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.sidebar a:hover
+{
+	color: #c7bbf3;
+	font-weight: bold;
+}
+
+.dark
+{
+	padding:15px;
+	background:rgb(56, 49, 78);
+	color:#ffffff;
+}
+
+footer
+{
+    padding:  50px;
+    background-color: rgb(56, 49, 78);
+    color: #fff;
+}
